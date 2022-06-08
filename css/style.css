@@ -24,7 +24,7 @@ a {
     align-items: center;
     padding: 8px 100px;
     flex: 0 0;
-    min-width: 90%;
+    min-width: 80%;
 }
 
 .text {
@@ -51,10 +51,9 @@ a {
 #container-1 {
     background-color: #1F2937;
     justify-content: space-between;
-    gap: 24px;
     flex-grow: 4;
     padding: 30px 100px;
-    min-width: 90%;
+    min-width: 80%;
 }
 
 #container-1a {
@@ -112,8 +111,14 @@ a {
 }
 
 #container-3 {
+    display: block;
     background-color: #E5E7EB;
     flex-grow: 4;
+    padding: 50px 200px;
+}
+
+#quoted {
+    text-align: end;
 }
 
 #container-4 {
