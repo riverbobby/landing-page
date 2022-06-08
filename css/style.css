@@ -143,10 +143,14 @@ a {
 .footer {
     justify-content: center;
     align-items: center;
+    padding: 8px 100px;
     background-color: #1F2937;
-    flex: 1 0;
+    flex: 0 0;
+    min-width: 80%;
 }
 
 #title-5 {
     color: #E5E7EB;
+    font-weight: 400;
+    padding: 8px 0px;
 }
