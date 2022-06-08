@@ -122,12 +122,22 @@ a {
 }
 
 #container-4 {
-    margin: 100px;
-    padding: 24px 40px;
+    margin: 40px 100px;
+    padding: 24px 0px;
     border-radius: 5px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
     flex-grow: 3;
+    gap: 50px;
+    min-width: 80%;
+}
+
+#title-4 {
+    color: #E5E7EB;
+}
+#text-2 {
+    color: #E5E7EB;
 }
 
 .footer {
