@@ -23,7 +23,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 8px 100px;
-    flex: 0 0;
     min-width: 80%;
 }
 
@@ -51,7 +50,6 @@ a {
 #container-1 {
     background-color: #1F2937;
     justify-content: space-between;
-    flex-grow: 4;
     padding: 30px 100px;
     min-width: 80%;
 }
@@ -83,12 +81,10 @@ a {
 
 #button-2 {
     border: 2px solid #E5E7EB;
-    
 }
 
 #container-2 {
     flex-direction: column;
-    flex-grow: 4;
 }
 
 #title-2 {
@@ -113,7 +109,6 @@ a {
 #container-3 {
     display: block;
     background-color: #E5E7EB;
-    flex-grow: 4;
     padding: 50px 200px;
 }
 
@@ -128,7 +123,6 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    flex-grow: 3;
     gap: 50px;
     min-width: 80%;
 }
@@ -145,7 +139,6 @@ a {
     align-items: center;
     padding: 8px 100px;
     background-color: #1F2937;
-    flex: 0 0;
     min-width: 80%;
 }
 
