@@ -1,8 +1,11 @@
 body {
-    margin: 0px;
+    display: flex;
+    margin: 0px auto;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
 }
 
 a {
@@ -19,8 +22,9 @@ a {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 50px;
-    flex: 1 0;
+    padding: 8px 50px;
+    flex: 0 0;
+    min-width: 90%;
 }
 
 .text {
@@ -46,10 +50,10 @@ a {
 
 #container-1 {
     background-color: #1F2937;
-    justify-content: center;
+    justify-content: space-between;
     gap: 24px;
     flex-grow: 4;
-    padding: 24px;
+    padding: 30px 50px;
 }
 
 #container-1a {
