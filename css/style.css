@@ -69,7 +69,7 @@ a {
 }
 
 #text-1 {
-    margin: 0;
+    padding-bottom: 5px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -92,14 +92,19 @@ a {
     flex-grow: 4;
 }
 
+#title-2 {
+    padding: 24px;
+}
+
 
 .card-container {
     justify-content: center;
     gap: 16px;
+    padding-bottom: 24px;
 }
 
 .card {
-    width: 200px;
+    width: 160px;
 }
 
 .thumbnail {
